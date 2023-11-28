@@ -1,0 +1,40 @@
+Conventional Commits Cheat Sheet
+
+- Format Général : 
+  - `<type>[optional scope]: <description>`
+  - Exemple : `fix(login): corrige erreur de chargement`
+
+- Types de Commit :
+  - `feat` : Nouvelle fonctionnalité.
+  - `fix` : Correction d'un bug.
+  - `docs` : Changements dans la documentation.
+  - `style` : Changements de style/formatage.
+  - `refactor` : Refactoring du code.
+  - `perf` : Améliorations de performance.
+  - `test` : Ajout ou modification de tests.
+  - `chore` : Tâches diverses de maintenance.
+
+- Scope (optionnel) :
+  - Partie du projet affectée.
+  - Exemple : `(login)`, `(user-profile)`
+
+- Description :
+  - Description concise des changements.
+  - Exemple : `ajoute authentification OAuth2`
+
+- Description Détaillée (Optionnelle) :
+  - Ligne vide après la première ligne.
+  - Détails supplémentaires si nécessaire.
+
+- Footers (Optionnels) :
+  - Références supplémentaires, comme `Closes #45`.
+
+---
+
+### Utilisation :
+
+1. Choisir le Type : Selon la nature des changements.
+2. Définir le Scope : Si applicable, précisez la partie spécifique du projet.
+3. Rédiger la Description : Courte et claire.
+4. Ajouter Description Détaillée : Si nécessaire, pour plus de détails.
+5. Inclure des Footers : Pour les références ou informations complémentaires.
